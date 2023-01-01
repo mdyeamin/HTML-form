@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cake house</title>
-</head>
-<body>
-    <h2>The Cake House On Cold Day </h2>
-    <p>
-       Name: <input type="text" placeholder="enter name">
-    </p>
-    <p>
-       Email: <input type="email" placeholder="enter email">
-    </p>
+  </head>
+  <body>
+    <h2>The Cake House On Cold Day</h2>
+    <p>Name: <input type="text" placeholder="enter name" /></p>
+    <p>Email: <input type="email" placeholder="enter email" /></p>
     <fieldset>
-        <legend>Select cake</legend>
+      <legend>Select your cake</legend>
+      <p>
         <label for="vapa">
-            <input type="radio" name="vapa" id="vapa">vapa
+          <input type="radio" name="cake" id="vapa" />vapa
         </label>
+      </p>
+      <p>
+        <label for="tell">
+          <input type="radio" name="cake" id="tell" />tell
+        </label>
+      </p>
+      <p>
+        <label for="citoi">
+          <input type="radio" name="cake" id="citoi" />citoi
+        </label>
+      </p>
     </fieldset>
-</body>
+    <fieldset>
+        <legend>select your vorta</legend>
+        <p>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">sorisa
+            </label>
+        </p>
+        <p>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">sutki
+            </label>
+        </p>
+        <p>
+            <label for="dhoniaPata">
+                <input type="checkbox" name="vorta" id="dhoniaPata">dhoniaPata
+            </label>
+        </p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <p>
+          <button type="submit">Submit</button>
+      </p>
+      <button type="submit">reset</button>
+    </fieldset>
+  </body>
 </html>
